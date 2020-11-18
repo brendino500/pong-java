@@ -10,7 +10,7 @@ public class Score extends Rectangle {
   int player1; // will hold current score of p1
   int player2; // will hold current score of p2
 
-  Score() {
+  Score(int GAME_WIDTH, int GAME_HEIGHT) {
 
   }
 
