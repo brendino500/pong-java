@@ -6,7 +6,7 @@ import javax.swing.*;
 public class GamePanel extends JPanel implements Runnable {
 
   static final int GAME_WIDTH = 1000;
-  static final int GAME_HEIGHT = (int) (GAME_WIDTH * (5 / 9));
+  static final int GAME_HEIGHT = (int) (GAME_WIDTH * (0.5555));
   static final Dimension SCREEN_SIZE = new Dimension(GAME_WIDTH, GAME_HEIGHT);
   static final int BALL_DIAMETER = 20;
   static final int PADDLE_WIDTH = 25;
@@ -41,7 +41,8 @@ public class GamePanel extends JPanel implements Runnable {
   }
 
   public void paint(Graphics g) {
-
+    image = createImage(getWidth(), getHeight());
+    graphics = image.getGraphics();
   }
 
   public void draw(Graphics g) {

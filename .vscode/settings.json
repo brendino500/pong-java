@@ -6,5 +6,6 @@
     "titleBar.inactiveForeground": "#211E2B",
     "titleBar.activeForeground": "#211E2B",
   },
-  "window.title": "P O N G  -- J A V A "
+  "window.title": "P O N G  -- J A V A ",
+  "maven.view": "flat"
 }
