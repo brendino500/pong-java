@@ -50,7 +50,8 @@ public class GamePanel extends JPanel implements Runnable {
   }
 
   public void draw(Graphics g) {
-
+    paddle1.draw(g);
+    paddle2.draw(g);
   }
 
   public void move() {
@@ -85,11 +86,13 @@ public class GamePanel extends JPanel implements Runnable {
   // action listener
   public class AL extends KeyAdapter {
     public void keyPressed(KeyEvent e) {
-
+      paddle1.keyPressed(e);
+      paddle2.keyPressed(e);
     }
 
     public void keyReleased(KeyEvent e) {
-
+      paddle1.keyReleased(e);
+      paddle2.keyReleased(e);
     }
   }
 }
