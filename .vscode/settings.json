@@ -1,0 +1,10 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#9bbf91",
+    "titleBar.activeBackground": "#9bbf91",
+    "titleBar.inactiveBackground": "#9bbf91",
+    "titleBar.inactiveForeground": "#211E2B",
+    "titleBar.activeForeground": "#211E2B",
+  },
+  "window.title": "P O N G  -- J A V A "
+}
